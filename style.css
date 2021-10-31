@@ -1,0 +1,361 @@
+*{
+			font-family: 'Bold-Regular', sans-serif;
+			margin: 0px;
+			padding: 0px;
+			outline: 0px;
+			border: 0px;
+			box-sizing: border-box;
+		}
+		@font-face{
+			font-family: 'Bold-Regular';
+			src:url(fonts/Bold-Regular.ttf);
+		}
+		.full-header{
+			width: 100%;
+			height: 700px;
+			background-image: url('img/header-bg.jpg') ;
+			background-size: 100% 700px;
+
+			background-repeat: no-repeat;
+			background-position: center;
+
+		}
+		
+		.header-name h2{
+			font-size: 18px;
+			padding-left: 60px;
+            color: #ffffff;
+		}
+		.header-top{
+			position: fixed;
+			height: 80px;
+			display: flex;
+			width: 100%;	
+			justify-content: space-between;
+			align-items: center;
+		}		
+		a{
+			text-decoration: none;
+			color: black;
+		}
+		.nav{
+			width: auto;	
+			padding-right: 60px;
+		}
+		.nav-menu {
+			width: 50px;
+			height: 50px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			border-radius: 50%;
+			background: #ffffff;
+		}
+		.hide-menu{
+			display: none;
+		}
+		.nav img{
+			width: 30px;
+			height: 30px;
+		}
+		.nav ul{
+			display: flex;
+			font-size: 18px;
+			list-style: none;
+		}
+		.nav ul li{
+			margin-right: 20px;
+		}
+		.nav ul li:last-child{
+            margin-right: 0px;
+		}
+		.nav ul li a{
+          color: white;
+		}
+		.active{
+          border-bottom: 2px solid #ffffff;
+		}
+		.header-bottom{
+			padding-left: 60px;
+			justify-content: flex-end;
+			flex-direction: column;
+			height: 620px;
+			display: flex;
+			padding-bottom: 80px;
+		}
+		.header-bottom-text{
+
+			font-size: 42px;
+			color: white;
+			line-height: 50px;
+			padding-bottom: 20px;
+		}
+		.header-bottom-button button{
+			font-size: 20px;
+			cursor: pointer;
+			border-radius: 4px;
+			background: #00B6AE;
+		}
+		.header-bottom-button button a{
+            display: flex;
+            padding: 10px 15px;
+            color: #ffffff;
+		}
+		.Container{
+			width: 90%;
+			margin: 80px auto;
+		}
+		.About-title h1{
+			margin-left: -15px
+		}
+		.About-title h1:after{
+		content:"";
+	    width: 80px;
+		margin-top: 5px;
+		display: flex;
+         border-bottom: 5px solid #00948B;
+		}
+
+		.About-text{
+			display: flex;
+		}
+		.About-text-right{
+           padding-left: 20px;
+		}
+		.About-text p{
+            margin-top: 20px;
+            font-size: 16px;
+               color: #666666;
+               line-height: 24px;
+		}
+		.resume{
+			margin-top: 40px;
+			font-size: 20px;
+			cursor: pointer;
+			border-radius: 4px;
+			background: #00B6AE;
+		}
+		.resume a{
+              padding: 10px 20px;
+              display: flex;
+              color: #ffffff;
+		}
+		.Lorem{
+			display: flex;
+			align-items: center;
+			background: #2E3041;
+			height: 327px;
+		}
+		.Lorem-text{
+			color: #ffffff;
+			font-size: 30px;
+			text-align: center;
+			padding: 0px 10px;
+		}
+		.About-full{
+			position: relative;
+		}
+		#About-full{
+            position: absolute;
+            top: -80px;
+		}
+		.Contact-full{
+			position: relative;
+		}
+		.nav-burger{
+			display: none;
+		}
+		#Contact-full{
+			position: absolute;
+            top: -80px;
+		}
+		.My-works-full{
+			position: relative;
+		}
+		#My-works-full{
+            position: absolute;
+            top: -80px;
+		}
+		.My-works-full .Container{
+		 margin: 50px auto;
+		}
+		.My-works-title h1:after{
+		content:"";
+		width: 70px;
+		margin-top: 15px;
+		display: flex;
+         border-bottom: 5px solid #00948B;
+		}
+		.Work-img img{
+			margin: 15px 0px;
+			width:100%;
+		}
+		.Work-text{
+			display: flex;
+		}
+		.Work-text p{
+		color: #666666;
+	    }
+	    .Work-text #link{
+		color: #666666;
+		margin-bottom: 13px;
+		display: flex;
+	    }
+		.Work-button{
+			
+			font-size: 20px;
+			cursor: pointer;
+			
+			border-radius: 4px;
+			background: #00B6AE;
+		}
+		.Work-text-left p{
+            margin-bottom: 8px;
+		}
+		.Work-text-left h3{
+			font-size: 25px;
+			margin-bottom: 10px;
+		}
+		.Work-button a{
+		  padding: 10px 15px;
+		  display: flex;
+          color: #ffffff;
+		}
+		
+		.Work-text-right{
+			padding-left: 70px;
+		}
+		.Work-text-right h3{
+           font-size: 25px;
+           margin-bottom: 15px;
+          
+		}
+		.Work-text-right p{
+           line-height: 24px;
+		}
+		.Contact-title{
+			margin-left: -15px;
+		}
+		.Contact-title h1:after{
+		content:"";
+		width: 90px;
+		margin-top: 15px;
+		display: flex;
+         border-bottom: 5px solid #00948B;
+         margin-bottom: 30px;
+		}
+		.Contact-text{
+			display: flex;
+		}
+		.Contact-text-right{
+			padding-left: 30px;
+		}
+		.Contact-text-right ul{
+			list-style: none;
+			font-weight: bold;
+		}
+        .Contact-form{
+           display: flex;
+           flex-direction: column;
+        }
+        .Contact-text-left>p{
+           font-weight: bold;
+          color: #666666;
+        }
+        .Contact-text-right ul li{
+        	margin-bottom: 20px;
+        }
+        .Contact-text-right>p{
+            font-weight: bold;
+          color: #666666;
+          margin-bottom: 20px;
+        }
+        .Contact-form input::placeholder{
+           font-weight: bold;
+           font-size: 16px;
+           color: black;
+        }
+        .Contact-form input{
+          height: 50px;
+          font-size: 20px;
+          padding-left: 10px;
+          margin-top: 20px;
+          border: 1px solid #666666;
+        }
+        .Contact-button{
+        	font-size: 20px;
+        	color: #ffffff;
+        	float: right;
+        	margin-top: 30px;
+        	border-radius: 4px;
+        	background: #00B6AE; 
+        	margin-left: auto;
+        }
+        .Contact-button a{
+            padding: 10px 15px;
+            color: #ffffff;
+            display: flex;
+        }
+        #social{
+        	margin-top: 10px;
+        	color: black;
+        }
+		.kontakt img{
+			width: 60px;
+			height: 60px;
+		}
+		@media(max-width:720px){
+			.nav{
+				position: relative;
+			}
+			.hide-menu{
+				display: flex;
+			}
+			.menu-none{
+				display: none;
+			}
+			.menu-flex{
+				display: flex;
+			}
+			.nav ul{
+				position: absolute;
+				display: none;
+				top: 50px;
+				left: -11px;
+				flex-direction: column;
+				font-size: 18px;
+				list-style: none;
+			}
+			.nav ul li{
+				padding-left: 10px;
+				margin-top: 10px;
+			}	
+			.nav ul li:last-child{
+				padding-bottom: 10px;
+			}	
+			.Lorem-text{
+				font-size: 20px;
+			}
+			.header-bottom-text p{
+				font-size: 30px;
+			}
+			.Work-text{
+				display: flex;
+				flex-direction: column;
+			}
+			.Lorem-text {				
+				padding: 0px 0px;
+			}
+			.Contact-text-right {
+				padding-top: 20px;
+				padding-left: 0px;
+			}
+			.Work-text-right{
+				padding-top: 20px;
+				padding-left: 0px;
+			}
+			.Contact-text{
+				display: flex;
+				flex-direction: column;
+			}
+		}
